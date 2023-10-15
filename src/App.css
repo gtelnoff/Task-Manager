@@ -1,0 +1,174 @@
+body 
+{
+  background-color: rgb(246, 246, 246);;
+}
+
+input:focus,
+textarea:focus,
+select:focus 
+{
+    outline: none;
+}
+
+.App
+{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title
+{
+  margin-bottom: 5%;
+  font-size: 48px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg, #009a9f, #00ff95 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-container 
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.section 
+{
+  width: clamp(40px, 300px, 300px);
+  margin-left: 50px;
+}
+
+.section-title 
+{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:flex-start;
+  text-align: center;
+}
+
+.add-task 
+{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+
+.card 
+{
+  margin-top: 20px;
+  padding: 10px;
+
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content:flex-start;
+  background-color: white;
+}
+
+.card-title-container
+{
+  width: clamp(40px, 285px, 285px);
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title
+{
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.effect-button-container
+{
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.effect-button
+{
+  display: flex;
+  align-items: flex-end;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.card-description
+{
+  text-align: start;
+}
+
+.card-title-input
+{
+  padding: 0px;
+  font-size: 16px;
+  width: clamp(40px, 300px, 280px);
+  border: none;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.card-description-input
+{
+  padding: 0px;
+  font-size: 16px;
+  width: clamp(40px, 300px, 280px);
+  border: none;
+}
+
+.button-container
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.save-button
+{
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #19de9e;
+  margin-right: 5px;
+}
+
+.cancel-button
+{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+}
+
+
+.card:hover .effect-button-container
+{
+  display: flex;
+}
+
+.error
+{
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: rgb(223, 15, 15);
+}
