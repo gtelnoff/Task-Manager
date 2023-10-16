@@ -6,4 +6,4 @@
 Launch this command in a terminal:
 <pre>npm start</pre>
 <h1>Rendering</h1>
-<img src="img1"></img>
+<img src="img"></img>
