@@ -5,4 +5,5 @@
 <b>⚠️ A docker container will be added to simplify the compilation process ⚠️</b><br><br>
 Launch this command in a terminal:
 <pre>npm start</pre>
+<h1>Rendering</h1>
 <img src="img.png"></img>
